@@ -3,7 +3,7 @@ opencv-contrib-python
 aiohttp
 aria2p
 beautifulsoup4
-coffeehouse
+coffeehouse>=2.1.0
 cowpy
 cfscrape
 cryptg
@@ -41,7 +41,7 @@ numpy>=1.11.1
 databases[sqlite]
 praw
 opencv_python>=1.1.1
-spamwatch
+spamwatch>=0.2.0
 aioschedule
 REPO_LINK
 feedparser
