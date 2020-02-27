@@ -62,11 +62,11 @@ from sample_config import Config
 #
 
 # REPO_LINK is as same as below.
-REPO_LINK = "https://github.com/mkaraniya/BotHub.git"
+REPO_LINK = "https://github.com/fforius/BotHub.git"
 # provide your HEROKU_API_KEY in place of this value.
-HEROKU_API_KEY = "1647d1dc-17e8-4e6c-b4af-8a43173e3014"
+HEROKU_API_KEY = "e74a6ed9-fcad-4741-897f-3450a788b945"
 # provide your HEROKU_APP_NAME in place of this value.
-HEROKU_APP_NAME = "teknoways"
+HEROKU_APP_NAME = "mantulhub"
 
 
 requirements_path = path.join(
