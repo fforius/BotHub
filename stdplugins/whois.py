@@ -59,13 +59,13 @@ async def _(event):
 👥Groups in Common: {}
 
 
-List Of Telegram Data Centres:
+Data diambil dari:
 
-DC1 : Miami FL, USA
-DC2 : Amsterdam, NL
-DC3 : Jerusalem, ISR
-DC4 : Mumbai, IN
-DC5 : SUN, UNIVERSE
+DC1 : Pak RT
+DC2 : PAk RW
+DC3 : Pak Lurah
+DC4 : Pak Camat
+DC5 : SangmataBot
 """.format(
         user_id,
         user_id,
