@@ -2,7 +2,7 @@
 #
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
-# edited by @AvinashReddy3108 
+# edited by @AvinashReddy3108
 # re-edited by @Mayur_Karaniya and @Devpatel_73 to make it work for Uniborg.
 #
 
@@ -65,7 +65,7 @@ async def upstream(ups):
     "For .update command, check if the bot is up to date, update if specified"
     await ups.edit("`Checking for updates, please wait....`")
     conf = ups.pattern_match.group(1).lower()
-    off_repo = 'https://github.com/mkaraniya/BotHub.git'
+    off_repo = 'https://github.com/fforius/BotHub.git'
 
     try:
         txt = "`Oops.. Updater cannot continue due to some problems occured`\n\n**LOGTRACE:**\n"
@@ -138,8 +138,8 @@ async def upstream(ups):
     # Shut the existing one down
     exit()
 
-    
-    
+
+
 """CMD_HELP.update({
     'update':
     ".update\
