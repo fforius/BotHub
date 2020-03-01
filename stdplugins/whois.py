@@ -46,7 +46,7 @@ async def _(event):
     except Exception as e:
         dc_id = "Need a Profile Picture to check **this**"
         location = str(e)
-    caption = """Detailed Whois:
+    caption = """Suspect Info:
 
 🔖ID: <code>{}</code>
 🤵Name: <a href='tg://user?id={}'>{}</a>
@@ -57,15 +57,10 @@ async def _(event):
 🌐Verified: {}
 🤖Bot: {}
 👥Groups in Common: {}
+Description:
 
 
-Data diambil dari:
-
-DC1 : Pak RT
-DC2 : PAk RW
-DC3 : Pak Lurah
-DC4 : Pak Camat
-DC5 : SangmataBot
+Data based on:
 """.format(
         user_id,
         user_id,
