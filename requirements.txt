@@ -9,10 +9,10 @@ lxml
 selenium
 aria2p 
 chatterbot
-chatterbot_corpus
+chatterbot_corpus>=1.2.0
 -r ./requirements-stdborg.txt
 gitpython
-heroku
+heroku>=0.1.4
 dnspython
 opencv-contrib-python
 opencv_python>=1.1.1
